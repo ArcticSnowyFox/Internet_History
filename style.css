@@ -1,11 +1,37 @@
 * {
-    font-family: NeXT_Roman, Helvetica, Helvetica Neue, Arial, sans-serif;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    overflow-x: hidden;
+    font-family  : NeXT_Roman, Helvetica, Helvetica Neue, Arial, sans-serif;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x   : hidden;
 }
 
 .text {
+    padding: 10px;
     padding-right: 50%;
-    padding-left: 6px;
+    padding-left : 6px;
+    margin: 10px;
+}
+
+ul {
+    list-style-type : none;
+    margin          : 0;
+    padding         : 0;
+    overflow        : hidden;
+    background-color: #000000;
+    border: 5px solid;
+    border-style: outset;
+}
+
+li {
+    float: unset;
+}
+
+li h2 {
+    text-align: center;
+    color: white;
+    margin: 5px;
 }
