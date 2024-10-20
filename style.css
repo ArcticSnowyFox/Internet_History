@@ -1,3 +1,10 @@
 * {
     font-family: NeXT_Roman, Helvetica, Helvetica Neue, Arial, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    overflow-x: hidden;
+}
+
+.text {
+    padding-right: 50%;
 }
