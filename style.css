@@ -1,19 +1,22 @@
 * {
-    font-family  : NeXT_Roman, Helvetica, Helvetica Neue, Arial, sans-serif;
-    margin-top   : 0;
-    margin-left  : 0;
-    margin-right : 0;
-    padding-top  : 0;
-    padding-left : 0;
-    padding-right: 0;
-    overflow-x   : hidden;
+    font-family   : NeXT_Roman, Helvetica, Helvetica Neue, Arial, sans-serif;
+    margin-top    : 0;
+    margin-left   : 0;
+    margin-right  : 0;
+    padding-top   : 0;
+    padding-left  : 0;
+    padding-right : 0;
+    padding-bottom: 0;
+    overflow-x    : hidden;
 }
 
 .text {
-    padding      : 10px;
-    padding-right: 50%;
-    padding-left : 6px;
-    margin       : 10px;
+    padding       : 10px;
+    padding-bottom: 10px;
+    padding-right : 1%;
+    padding-left  : 6px;
+    margin        : 10px;
+    margin-bottom : 10px;
 }
 
 ul {
@@ -49,4 +52,6 @@ li h2 {
     padding-top     : 6vh;
     width           : 100vw;
     height          : 100vh;
+    margin-bottom   : 0;
+    padding-bottom  : 0;
 }
