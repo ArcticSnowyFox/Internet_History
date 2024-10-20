@@ -37,16 +37,16 @@ li h2 {
 }
 
 .outline {
-    outline: 3px #000000 solid;
-    padding: 0px;
+    outline         : 3px #000000 solid;
+    padding         : 0px;
     background-color: #ffffff;
-    margin-right: 9vw;
+    margin-right    : 9vw;
 }
 
 .background {
     background-color: #555555;
-    padding: 4vw;
-    padding-top: 6vh;
-    width: 100vw;
-    height: 100vh;
+    padding         : 4vw;
+    padding-top     : 6vh;
+    width           : 100vw;
+    height          : 100vh;
 }
