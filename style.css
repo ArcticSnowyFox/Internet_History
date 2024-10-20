@@ -1,19 +1,19 @@
 * {
     font-family  : NeXT_Roman, Helvetica, Helvetica Neue, Arial, sans-serif;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-    padding-top: 0;
-    padding-left: 0;
+    margin-top   : 0;
+    margin-left  : 0;
+    margin-right : 0;
+    padding-top  : 0;
+    padding-left : 0;
     padding-right: 0;
     overflow-x   : hidden;
 }
 
 .text {
-    padding: 10px;
+    padding      : 10px;
     padding-right: 50%;
     padding-left : 6px;
-    margin: 10px;
+    margin       : 10px;
 }
 
 ul {
@@ -22,8 +22,8 @@ ul {
     padding         : 0;
     overflow        : hidden;
     background-color: #000000;
-    border: 5px solid;
-    border-style: outset;
+    border          : 5px solid;
+    border-style    : outset;
 }
 
 li {
@@ -32,6 +32,21 @@ li {
 
 li h2 {
     text-align: center;
-    color: white;
-    margin: 5px;
+    color     : white;
+    margin    : 5px;
+}
+
+.outline {
+    outline: 3px #000000 solid;
+    padding: 0px;
+    background-color: #ffffff;
+    margin-right: 9vw;
+}
+
+.background {
+    background-color: #555555;
+    padding: 4vw;
+    padding-top: 6vh;
+    width: 100vw;
+    height: 100vh;
 }
